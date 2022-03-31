@@ -36,6 +36,6 @@ pub fn error_string(error: AXError) -> &'static str {
         kAXErrorNoValue => "kAXErrorNoValue",
         kAXErrorParameterizedAttributeUnsupported => "kAXErrorParameterizedAttributeUnsupported",
         kAXErrorNotEnoughPrecision => "kAXErrorNotEnoughPrecision",
-        _ => "unknown error",
+        _ => "unknown error: ",
     }
 }

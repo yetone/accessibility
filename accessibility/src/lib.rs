@@ -1,7 +1,9 @@
 pub mod action;
 pub mod attribute;
+pub mod observer;
 pub mod ui_element;
 mod util;
+pub mod value;
 
 use accessibility_sys::{error_string, AXError};
 use core_foundation::{
@@ -19,7 +21,9 @@ use thiserror::Error as TError;
 
 pub use action::*;
 pub use attribute::*;
+pub use observer::*;
 pub use ui_element::*;
+pub use value::*;
 
 #[non_exhaustive]
 #[derive(Debug, TError)]
