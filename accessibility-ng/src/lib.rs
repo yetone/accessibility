@@ -5,7 +5,7 @@ pub mod ui_element;
 mod util;
 pub mod value;
 
-use accessibility_sys::{error_string, AXError};
+use accessibility_sys_ng::{error_string, AXError};
 use core_foundation::{
     array::CFArray,
     base::CFTypeID,

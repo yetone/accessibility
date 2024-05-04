@@ -1,4 +1,4 @@
-use accessibility_sys::{kAXErrorSuccess, AXError};
+use accessibility_sys_ng::{kAXErrorSuccess, AXError};
 use std::mem::MaybeUninit;
 
 pub(crate) unsafe fn ax_call<F, V>(f: F) -> Result<V, AXError>

@@ -5,7 +5,7 @@ use std::{
     time::{Duration, Instant},
 };
 
-use accessibility_sys::{
+use accessibility_sys_ng::{
     kAXTrustedCheckOptionPrompt, pid_t, AXIsProcessTrusted, AXIsProcessTrustedWithOptions,
     AXUIElementCopyActionNames, AXUIElementCopyAttributeNames, AXUIElementCopyAttributeValue,
     AXUIElementCopyParameterizedAttributeNames, AXUIElementCopyParameterizedAttributeValue,

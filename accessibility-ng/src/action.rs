@@ -1,4 +1,4 @@
-use accessibility_sys::{
+use accessibility_sys_ng::{
     kAXConfirmAction, kAXDecrementAction, kAXIncrementAction, kAXPickAction, kAXPressAction,
     kAXRaiseAction, kAXShowAlternateUIAction, kAXShowDefaultUIAction, kAXShowMenuAction,
 };

@@ -8,7 +8,7 @@ use cocoa::appkit::CGPoint;
 use core_foundation::base::{CFRange, TCFType};
 use core_foundation::{declare_TCFType, impl_CFTypeDescription, impl_TCFType};
 
-use accessibility_sys::{
+use accessibility_sys_ng::{
     kAXValueTypeAXError, kAXValueTypeCFRange, kAXValueTypeCGPoint, kAXValueTypeCGRect,
     kAXValueTypeCGSize, kAXValueTypeIllegal, AXValueCreate, AXValueGetType, AXValueGetTypeID,
     AXValueGetValue, AXValueRef, AXValueType,

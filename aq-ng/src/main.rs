@@ -1,4 +1,4 @@
-use accessibility::{
+use accessibility_ng::{
     AXAttribute, AXUIElement, AXUIElementAttributes, TreeVisitor, TreeWalker, TreeWalkerFlow,
 };
 use core_foundation::{array::CFArray, string::CFString};

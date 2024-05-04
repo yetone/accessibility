@@ -1,6 +1,6 @@
 use std::{ffi::c_void, str::FromStr};
 
-use accessibility_sys::{
+use accessibility_sys_ng::{
     pid_t, AXObserverAddNotification, AXObserverCallback, AXObserverCallbackWithInfo,
     AXObserverCreate, AXObserverCreateWithInfoCallback, AXObserverGetRunLoopSource,
     AXObserverGetTypeID, AXObserverRef, AXObserverRemoveNotification, AXUIElementRef,

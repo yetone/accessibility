@@ -1,4 +1,4 @@
-use accessibility_sys::{
+use accessibility_sys_ng::{
     kAXAXNextLineRangeForIndexParameterizedAttribute,
     kAXAXPreviousLineRangeForIndexParameterizedAttribute, kAXAllowedValuesAttribute,
     kAXAttributedStringForRangeParameterizedAttribute, kAXBoundsForRangeParameterizedAttribute,

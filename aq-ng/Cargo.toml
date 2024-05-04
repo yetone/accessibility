@@ -1,0 +1,15 @@
+[package]
+name = "aq-ng"
+version = "0.1.4"
+authors = ["yetone <yetoneful@gmail.com>"]
+edition = "2018"
+license = "MIT / Apache-2.0"
+homepage = "https://github.com/yetone/accessibility"
+repository = "https://github.com/yetone/accessibility"
+description = "Accessibility query"
+
+[dependencies]
+core-foundation = "0.9"
+structopt = "0.3"
+
+accessibility-ng = "0.1.6"
